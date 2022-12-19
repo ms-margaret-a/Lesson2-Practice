@@ -3,3 +3,9 @@
 # Использовать функцию type() для проверки типа.
 # Элементы списка можно не запрашивать у пользователя, а указать явно, в программе.
 
+list_1 = [5, "bla", -55, None, True]
+def type_1(el):
+    for el in range(len(list_1)):
+        print(type(list_1[el]))
+    return
+type_1(list_1)
